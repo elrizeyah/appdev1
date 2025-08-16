@@ -1,8 +1,8 @@
 # About Me
 
-**Name:** Ellissea Montes
-**Course/Year:** BS Information Systems 3rd Year - Sec. A
-**Fun Fact:** I can draw anime, both traditionally and digitally, for about 30 minutes just by looking at my reference.
+**Name:** Ellissea Montes  
+**Course/Year:** BS Information Systems 3rd Year - Sec. A  
+**Fun Fact:** I can draw anime, both traditionally and digitally, for about 30 minutes just by looking at my reference.  
 
 ---
 
