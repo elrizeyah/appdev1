@@ -1,11 +1,13 @@
-# About Me
+<h1>About Me</h1>
 
-**Name:** Ellissea Montes  
-**Course/Year:** BS Information Systems 3rd Year - Sec. A  
-**Fun Fact:** I can draw anime, both traditionally and digitally, for about 30 minutes just by looking at my reference.  
+<p><strong>Name:</strong> Ellissea Montes<br>
+<strong>Course/Year:</strong> BS Information Systems – 3rd Year, Section A<br>
+<strong>Fun Fact:</strong> I have the ability to draw anime, both traditionally and digitally, by referencing an image for just 30 minutes.</p>
 
----
+<hr>
 
-## Why I Want to Learn Git & GitHub
+<h1>Why I Want to Learn Git & GitHub</h1>
 
-I want to learn Git and GitHub because they’re really important tools for anyone coding today. Git helps me keep track of all my changes so I don’t lose any progress, and GitHub makes it easy to share my work and collaborate with classmates and teachers. Knowing how to use these tools will not only make me better at managing my projects but also get me ready to work with others in real-world situations. It’s a skill that will help me keep improving and stay up-to-date in my programming journey.
+<p>As an aspiring professional in the field of Information Systems, I recognize the importance of mastering tools like Git and GitHub. Git allows for efficient version control, enabling me to track changes and avoid losing progress, while GitHub provides a collaborative platform to share my work and contribute to group projects.</p>
+
+<p>Gaining proficiency in these tools will strengthen my project management skills, enhance my ability to work in team environments, and prepare me for real-world software development workflows. Learning Git and GitHub is a key step in staying current and competitive in the ever-evolving tech industry.</p>
