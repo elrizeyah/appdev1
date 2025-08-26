@@ -2,7 +2,7 @@
 
 <p><strong>Name:</strong> Ellissea Montes<br>
 <strong>Course/Year:</strong> BS Information Systems – 3rd Year, Section A<br>
-<strong>Fun Fact:</strong> If we share hobbies, chances are we’ll get along fast — no awkward intros needed.</p>
+<strong>Fun Fact:</strong> Trying out random things is my way of staying curious and inspired.</p>
 
 <hr>
 
