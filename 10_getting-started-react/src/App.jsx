@@ -5,7 +5,7 @@ function App() {
     <div style={{
       fontFamily: "'Poppins', sans-serif",
       background: 'linear-gradient(135deg, #ffffff, #e341ffff)',
-      color: '#3a0a4d',
+      color: '#37064bff',
       padding: '50px',
       borderRadius: '16px',
       maxWidth: '900px',
