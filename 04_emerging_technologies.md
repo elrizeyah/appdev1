@@ -4,6 +4,7 @@
 
 <p>5G, or the fifth generation of wireless technology, offers internet speeds far beyond those of earlier networks. It’s built for ultra-low latency, allowing data to move almost instantly from one device to another. This makes it possible to connect huge numbers of devices at once without sacrificing performance. With such capabilities, 5G supports cutting-edge innovations like the Internet of Things (IoT), autonomous vehicles, and immersive AR/VR experiences. In short, it’s designed to create a faster, steadier, and more efficient communication network that keeps pace with today’s digital demands.</p>
 
+
 <ul>
   <li><strong>Reference:</strong><br>
   <em>Source: Rouse, M., & Clarke, A. (2023, December). "5G." TechTarget. Retrieved from <a href="https://www.techtarget.com/searchnetworking/definition/5G">https://www.techtarget.com/searchnetworking/definition/5G</a></em></li>
