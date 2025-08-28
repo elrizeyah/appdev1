@@ -47,15 +47,15 @@ function App() {
         textAlign: 'center',
         textShadow: '1.5px 1.5px 5px rgba(142, 36, 170, 0.3)'
       }}>
-        Why I Want to Learn Git & GitHub?
+        Why I Want to Learn React?
       </h1>
 
       <p style={{ fontSize: '1.1rem' }}>
-        As an aspiring professional in the field of Information Systems, I recognize the importance of mastering tools like Git and GitHub. Git allows for efficient version control, enabling me to track changes and avoid losing progress, while GitHub provides a collaborative platform to share my work and contribute to group projects.
+        I want to learn React because it is a modern and in demand technology, widely used in both web and mobile development. Gaining knowledge in React will help me strengthen my skills, and prepare me to work on more advanced projects. I see it as an essential step in keeping up with the evolving trends in the tech industry.
       </p>
 
       <p style={{ fontSize: '1.1rem' }}>
-        Gaining proficiency in these tools will strengthen my project management skills, enhance my ability to work in team environments, and prepare me for real-world software development workflows. Learning Git and GitHub is a key step in staying current and competitive in the ever-evolving tech industry.
+        Although I am still in the process of learning, I am determined to improve and grow my expertise. Mastering React will not only allow me to apply it effectively in future work but also help me maintain professionalism by continuously developing my abilities. I believe that investing time and effort into learning this framework will give me an advantage in my career journey.
       </p>
     </div>
   );
