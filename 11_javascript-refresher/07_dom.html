@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button onclick="document.body.style.backgroundColor='lightblue'">Change BG</button>
+  <p id="msg"></p>
+  <script>
+    let color = prompt("Favorite color?");
+    document.getElementById("msg").innerText = "Your favorite color is " + color;
+    setTimeout(() => {
+      document.getElementById("msg").innerText += "\nThis message appears after 2 seconds";
+    }, 2000);
+  </script>
+</body>
+</html>
