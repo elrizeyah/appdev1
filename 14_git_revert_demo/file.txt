@@ -1,3 +1,9 @@
-Line 1
-Line 2
-Line 3
+What did you notice about the file and commit history after the revert?
+
+One thing I noticed after running git revert is that the changes
+from my last commit were undone — the file I previously added
+was no longer present in the working directory. However, the original commit
+still appeared in the git log --oneline history. This helped me understand
+that git revert doesn’t delete a commit, but rather adds a new one
+that reverses its changes. It’s a useful and safer way to undo changes
+while keeping the commit history intact and traceable.
