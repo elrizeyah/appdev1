@@ -1,0 +1,9 @@
+What did you notice about the commit history after switching from macro to micro commits?
+
+After switching from macro to micro commits, the commit history became noticeably more organized and easier to follow.
+Previously, using macro commits, a single commit would often bundle changes from multiple files or
+even different features, making it harder to understand the purpose behind each update. With micro commits,
+each commit is smaller and more focused—often targeting just one file or a single, logical change.
+This shift has made the history much clearer, more maintainable, and easier to review. It also helps
+when tracking down bugs or understanding the evolution of a specific part of the codebase. Overall, the change
+has brought more structure and clarity to the development process.
