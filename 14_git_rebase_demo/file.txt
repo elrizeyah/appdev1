@@ -1,0 +1,12 @@
+What did you notice about the commit history after rebase?
+
+
+After performing the rebase, I noticed that the feature branch commits
+were reapplied on top of the latest commit from the main branch
+— in this case, the hotfix. This effectively created a cleaner,
+linear history, avoiding a merge commit and making it easier to understand
+the chronological order of changes. It was insightful to see how rebase
+maintains commit integrity while aligning branches more cleanly, which is especially valuable
+when preparing for a clean integration of feature work. It also reinforced
+the importance of rebasing local feature branches regularly to stay up-to-date with main,
+especially in collaborative environments.
