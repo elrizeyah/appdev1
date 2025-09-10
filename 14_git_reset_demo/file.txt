@@ -1,2 +1,8 @@
-Line 1
-Line 2
+What did you notice about the file and commit history after the reset?
+
+After running the hard reset, I noticed that both the commit history and
+working directory were taken back to the exact state of the selected previous commit.
+All commits made after that point were no longer present, and any files or changes
+introduced since then were removed. It became clear that a hard reset
+not only changes the commit history but also permanently discards changes in the working directory,
+making it a powerful but potentially risky command if not used carefully.
