@@ -1,0 +1,9 @@
+What did you notice about the commit history after merge?
+
+After completing the merge, I noticed that the commit history now clearly reflects
+the integration of the feature branch into the main branch, preserving all individual commits
+from the feature work alongside the commits from the main branch. This creates a unified, linear history
+that shows the development process while maintaining the context of each change. The merge commit acts
+as a clear marker, signaling where the feature was incorporated, which helps in understanding the project’s evolution.
+Overall, this approach keeps the history organized and transparent, making collaboration and
+future troubleshooting much easier.
