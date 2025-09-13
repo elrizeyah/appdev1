@@ -1,18 +1,37 @@
 import './App.css';
 
-// 1. Creating and Nesting Components
-function MyButton() {
+// // 1. Creating and Nesting Components
+// function MyButton() {
+//   return (
+//   <button>I'm a button</button>
+//   );
+// }
+
+// export default function App() {
+//   return (
+//     <div>
+//       <h1>Welcome to my app</h1>
+//       <MyButton />
+//     </div>
+//   );
+
+// }
+
+// 2. Writing markup with JSX
+
+function AboutPage() {
   return (
-  <button>I'm a button</button>
+    <>
+      <h1>About</h1>
+      <p>Hello there.<br />How do you do?</p>
+    </>
   );
 }
 
 export default function App() {
   return (
-    <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
-    </div>
+    <>
+      <AboutPage/>
+    </>
   );
-
 }
