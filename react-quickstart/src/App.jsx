@@ -38,18 +38,29 @@ import './App.css';
 
 // 3. Adding styles
 
+// function App() {
+//   return (
+//     <div>
+//       <img
+//         className="avatar"
+//         src="/avatar.png"
+//         alt="Avatar" //shows only when the image cannot be loaded
+//       />
+//     </div>
+//   );
+// }
+
+// 4. Displaying Data
+
 function App() {
   return (
     <div>
-      <img
-        className="avatar"
-        src="/avatar.png"
-        alt="Avatar" //shows only when the image cannot be loaded
+      <img className="avatar"
+      src="/avatar.png"
+      alt="Avatar"
       />
     </div>
-  );
-}
+    );
+  }
 
-export default App;
-
-
+  export default App;
