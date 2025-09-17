@@ -1,4 +1,4 @@
-import Dashboard from './Dashboard';
+import ShoppingList from './ShoppingList'; // Import the component
 import './App.css';
 
 // // 1. Creating and Nesting Components
@@ -67,10 +67,21 @@ import './App.css';
 // 5. Conditional Rendering
 
 
-  export default function App() {
+//   export default function App() {
+//   return (
+//     <div>
+//       <Dashboard />
+//     </div>
+//   );
+// }
+
+// 6. Rendering Lists
+
+export default function App() {
   return (
     <div>
-      <Dashboard />
+      <h1>My Shopping List</h1>
+      <ShoppingList /> {/* Use the component here */}
     </div>
   );
 }
