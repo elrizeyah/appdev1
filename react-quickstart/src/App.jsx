@@ -19,19 +19,37 @@ import './App.css';
 
 // 2. Writing markup with JSX
 
-function AboutPage() {
+// function AboutPage() {
+//   return (
+//     <>
+//       <h1>About</h1>
+//       <p>Hello there.<br />How do you do?</p>
+//     </>
+//   );
+// }
+
+// export default function App() {
+//   return (
+//     <>
+//       <AboutPage/>
+//     </>
+//   );
+// }
+
+// 3. Adding styles
+
+function App() {
   return (
-    <>
-      <h1>About</h1>
-      <p>Hello there.<br />How do you do?</p>
-    </>
+    <div>
+      <img
+        className="avatar"
+        src="/avatar.png"
+        alt="Avatar" //shows only when the image cannot be loaded
+      />
+    </div>
   );
 }
 
-export default function App() {
-  return (
-    <>
-      <AboutPage/>
-    </>
-  );
-}
+export default App;
+
+
