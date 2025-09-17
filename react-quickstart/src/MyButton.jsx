@@ -1,17 +1,31 @@
-import React, { useState } from 'react';
+// 7. Responding To Events
+// 8. Updating The Screen / Using Hooks
 
-export default function MyButton() {
-  // Declare a state variable named 'count', initialized to 0
-  const [count, setCount] = useState(0);
+// import React, { useState } from 'react';
 
-  // Event handler function for when the button is clicked
-  function handleClick() {
-    // Update the count by 1
-    setCount(count + 1);
-  }
+// export default function MyButton() {
+//   // Declare a state variable named 'count', initialized to 0
+//   const [count, setCount] = useState(0);
 
+//   // Event handler function for when the button is clicked
+//   function handleClick() {
+//     // Update the count by 1
+//     setCount(count + 1);
+//   }
+
+//   return (
+//     <button onClick={handleClick}>
+//       Clicked {count} times
+//     </button>
+//   );
+// }
+
+// 9. Sharing Data Between Components
+
+// Props: 'count' and 'onClick' are passed from parent
+export default function MyButton({ count, onClick }) {
   return (
-    <button onClick={handleClick}>
+    <button onClick={onClick}>
       Clicked {count} times
     </button>
   );
