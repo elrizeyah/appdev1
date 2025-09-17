@@ -1,3 +1,4 @@
+import Dashboard from './Dashboard';
 import './App.css';
 
 // // 1. Creating and Nesting Components
@@ -52,15 +53,24 @@ import './App.css';
 
 // 4. Displaying Data
 
-function App() {
+// function App() {
+//   return (
+//     <div>
+//       <img className="avatar"
+//       src="/avatar.png"
+//       alt="Avatar"
+//       />
+//     </div>
+//     );
+//   }
+
+// 5. Conditional Rendering
+
+
+  export default function App() {
   return (
     <div>
-      <img className="avatar"
-      src="/avatar.png"
-      alt="Avatar"
-      />
+      <Dashboard />
     </div>
-    );
-  }
-
-  export default App;
+  );
+}
