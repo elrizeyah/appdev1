@@ -53,28 +53,47 @@
 
 // How to use curly braces with JSX to access JavaScript functionality from your components
 
-const person = {
-  name: 'Gregorio Y. Zara',
-  theme: {
-    backgroundColor: 'black',
-    color: 'pink'
-  }
-};
+// const person = {
+//   name: 'Gregorio Y. Zara',
+//   theme: {
+//     backgroundColor: 'black',
+//     color: 'pink'
+//   }
+// };
 
-export default function TodoList() {
+// export default function TodoList() {
+//   return (
+//     <div style={person.theme}>
+//       <h1>{person.name}'s Todos</h1>
+//       <img
+//         className="avatar"
+//         src="https://i.imgur.com/7vQD0fPs.jpg"
+//         alt="Gregorio Y. Zara"
+//       />
+//       <ul>
+//         <li>Improve the videophone</li>
+//         <li>Prepare aeronautics lectures</li>
+//         <li>Work on the alcohol-fuelled engine</li>
+//       </ul>
+//     </div>
+//   );
+// }
+
+// How to configure components with props
+
+import Card from './components/Card.jsx';
+import Avatar from './components/Avatar.jsx';
+
+export default function Profile() {
   return (
-    <div style={person.theme}>
-      <h1>{person.name}'s Todos</h1>
-      <img
-        className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
+    <Card>
+      <Avatar
+        size={100}
+        person={{
+          name: 'Katsuko Saruhashi',
+          imageId: 'YfeOqp2'
+        }}
       />
-      <ul>
-        <li>Improve the videophone</li>
-        <li>Prepare aeronautics lectures</li>
-        <li>Work on the alcohol-fuelled engine</li>
-      </ul>
-    </div>
+    </Card>
   );
 }
