@@ -126,28 +126,61 @@
 
 // How to render multiple components at a time
 
-import { people } from './data/data.js';
-import { getImageUrl } from './utils/utils.js';
+// import { people } from './data/data.js';
+// import { getImageUrl } from './utils/utils.js';
 
-export default function List() {
-  const listItems = people.map(person =>
-    <li key={person.id}>
-      <img
-        src={getImageUrl(person)}
-        alt={person.name}
-      />
-      <p>
-        <b>{person.name}:</b>
-        {' ' + person.profession + ' '}
-        known for {person.accomplishment}
-      </p>
-    </li>
-  );
-  return (
-    <article>
-      <h1>Scientists</h1>
-      <ul>{listItems}</ul>
-    </article>
-  );
+// export default function List() {
+//   const listItems = people.map(person =>
+//     <li key={person.id}>
+//       <img
+//         src={getImageUrl(person)}
+//         alt={person.name}
+//       />
+//       <p>
+//         <b>{person.name}:</b>
+//         {' ' + person.profession + ' '}
+//         known for {person.accomplishment}
+//       </p>
+//     </li>
+//   );
+//   return (
+//     <article>
+//       <h1>Scientists</h1>
+//       <ul>{listItems}</ul>
+//     </article>
+//   );
+// }
+
+// How to avoid confusing bugs by keeping components pure
+
+// let guest = 0;
+
+// function Cup() {
+//   // Bad: changing a preexisting variable!
+//   guest = guest + 1;
+//   return <h2>Tea cup for guest #{guest}</h2>;
+// }
+
+// export default function TeaSet() {
+//   return (
+//     <>
+//       <Cup />
+//       <Cup />
+//       <Cup />
+//     </>
+//   );
+// }
+
+function Cup({ guest }) {
+  return <h2>Tea cup for guest #{guest}</h2>;
 }
 
+export default function TeaSet() {
+  return (
+    <>
+      <Cup guest={1} />
+      <Cup guest={2} />
+      <Cup guest={3} />
+    </>
+  );
+}
