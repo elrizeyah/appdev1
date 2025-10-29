@@ -171,16 +171,65 @@
 //   );
 // }
 
-function Cup({ guest }) {
-  return <h2>Tea cup for guest #{guest}</h2>;
-}
+// function Cup({ guest }) {
+//   return <h2>Tea cup for guest #{guest}</h2>;
+// }
 
-export default function TeaSet() {
+// export default function TeaSet() {
+//   return (
+//     <>
+//       <Cup guest={1} />
+//       <Cup guest={2} />
+//       <Cup guest={3} />
+//     </>
+//   );
+// }
+
+// Why understanding your UI as trees is useful
+// The UI component tree (with top-level and leaf components)
+
+// import RootComponent from './components/RootComponent';
+
+// function App() {
+//   return (
+//     <div>
+//       <RootComponent />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// Why understanding your UI as trees is useful
+// The module dependency tree (for JavaScript modules)
+
+import { rootGreet } from './RootModule.js'; // make sure RootModule.js is in the same folder
+
+export default function App() {
+  const handleClick = () => {
+    console.clear(); // clears console for clean output (optional)
+    rootGreet();     // runs the entire module chain
+  };
+
   return (
-    <>
-      <Cup guest={1} />
-      <Cup guest={2} />
-      <Cup guest={3} />
-    </>
+    <div style={{ padding: 20, fontFamily: 'sans-serif' }}>
+      <h1>Module Dependency Tree Demo</h1>
+      <button
+        onClick={handleClick}
+        style={{
+          padding: '10px 20px',
+          fontSize: '16px',
+          cursor: 'pointer',
+          background: '#4CAF50',
+          color: 'white',
+          border: 'none',
+          borderRadius: '8px'
+        }}
+      >
+        Run Greeting Chain
+      </button>
+       <p>Open your browser console to see the module output.</p>
+    </div>
   );
 }
+
